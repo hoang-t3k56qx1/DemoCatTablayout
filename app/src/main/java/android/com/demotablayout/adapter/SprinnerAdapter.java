@@ -17,7 +17,7 @@ public class SprinnerAdapter extends BaseAdapter {
         this.context = context;
     }
 
-    private int[] arrImg = {R.drawable.samsung, R.drawable.asus,R.drawable.iphone,R.drawable.xiaomi};
+    private int[] arrImg = {R.drawable.meo2, R.drawable.meo3,R.drawable.meo4,R.drawable.meo5};
     @Override
     public int getCount() {
         return arrImg.length;

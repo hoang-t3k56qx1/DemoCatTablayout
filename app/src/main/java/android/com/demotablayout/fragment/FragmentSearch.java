@@ -60,10 +60,10 @@ public class FragmentSearch extends Fragment {
         Log.e("hoangdev", "so luong " + MainActivity.catArrayList.size());
         filterList = new ArrayList<>();
         for(Cat i : MainActivity.catArrayList){
-            filterList.add(i);
-//            if(i.getName().toLowerCase().contains(s.toLowerCase())){
-//                filterList.add(i);
-//            }
+//            filterList.add(i);
+            if(i.getName().toLowerCase().contains(s.toLowerCase())){
+                filterList.add(i);
+            }
         }
 
         if(filterList.isEmpty()){
